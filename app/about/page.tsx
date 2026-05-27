@@ -82,8 +82,8 @@ export default function AboutPage() {
               </div>
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/images/staff-1.jpg"
-                  alt="Syntrix Automation team collaborating"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/11429728_918437704885706_9084464199721363671_n-tCzRdXSFZQbVi6i4SrFepEHcqBG5qz.jpg"
+                  alt="Syntrix Automation team in board room meeting"
                   width={600}
                   height={400}
                   className="w-full h-full object-cover"
@@ -151,8 +151,8 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center mb-16">
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/images/meeting.jpg"
-                  alt="Leadership team meeting and collaboration"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10521732_795206670542144_1739303947362592642_o-Ppfvu7OWAJOcNXFKpbsKhNgR44fefL.jpg"
+                  alt="Leadership team panel discussion"
                   width={600}
                   height={400}
                   className="w-full h-full object-cover"
@@ -178,8 +178,8 @@ export default function AboutPage() {
             {/* Team Photo */}
             <div className="overflow-hidden rounded-lg shadow-lg mt-12">
               <Image
-                src="/images/staff-2.jpg"
-                alt="Syntrix team working together"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%2027%2C%202026%2C%2010_41_47%20AM-V3zcOyruExM13mTrUyveOgdN2loz1X.png"
+                alt="Syntrix team leadership and partnership"
                 width={1200}
                 height={400}
                 className="w-full h-96 object-cover"

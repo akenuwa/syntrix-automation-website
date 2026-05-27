@@ -102,13 +102,13 @@ export function HeroSection() {
             ))}
           </motion.div>
 
-          {/* Equipment Images */}
+          {/* Industrial Facility & Leadership */}
           <motion.div variants={itemVariants} className="pt-16">
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
               <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <Image
-                  src="/images/equipment-1.jpg"
-                  alt="Industrial manufacturing equipment"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10321209_713095568753255_3472548773213599776_o-cqAOnSLpRHun7nEptLRnysjbMkzC5x.jpg"
+                  alt="Leadership touring industrial facility"
                   width={600}
                   height={400}
                   className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
@@ -116,8 +116,8 @@ export function HeroSection() {
               </div>
               <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <Image
-                  src="/images/equipment-2.jpg"
-                  alt="Automated production line"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%2027%2C%202026%2C%2010_34_37%20AM-ri20zCaVZKZILlnp3fy44n9wmCwBlH.png"
+                  alt="CEO presenting Syntrix vision"
                   width={600}
                   height={400}
                   className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
