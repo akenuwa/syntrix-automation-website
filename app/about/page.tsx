@@ -11,8 +11,8 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Syntrix | Global Industrial Automation Leader',
-  description: 'Learn about Syntrix Automation, our history, mission, and commitment to delivering world-class automation solutions.',
+  title: 'About Syntrix | Marine & Military Machinery Specialists',
+  description: 'Learn about Syntrix Automation, our history in heavy duty machinery for marine and military applications, and our commitment to defense excellence.',
 };
 
 const values = [
@@ -57,7 +57,7 @@ export default function AboutPage() {
               About Syntrix Automation
             </h1>
             <p className="text-lg text-foreground/70 max-w-3xl">
-              Leading the global industrial automation revolution with cutting-edge solutions and unwavering commitment to customer success.
+              Leading heavy duty machinery automation for marine vessels and military defense applications. Trusted by navies and defense contractors across six continents.
             </p>
           </div>
         </section>
@@ -71,13 +71,13 @@ export default function AboutPage() {
                   Our Story
                 </h2>
                 <p className="text-lg text-foreground/70">
-                  Founded in 1998, Syntrix Automation began with a simple vision: to revolutionize industrial automation through technology and human expertise. What started as a team of five engineers has grown into a global organization serving over 500 clients across six continents.
+                  Founded in 1998, Syntrix Automation began with a mission to revolutionize heavy duty machinery automation for the marine and military sectors. What started as a team of five naval engineers has grown into a global organization serving over 200 naval vessels and 500+ defense projects worldwide.
                 </p>
                 <p className="text-lg text-foreground/70">
-                  Today, our 300+ team members bring diverse expertise in electrical engineering, software development, project management, and industry-specific knowledge to every project we undertake.
+                  Today, our 300+ team members bring diverse expertise in marine propulsion systems, military machinery, shipyard operations, and defense manufacturing to every project we undertake.
                 </p>
                 <p className="text-lg text-foreground/70">
-                  We have delivered over 2,000 projects, from small manufacturing optimizations to massive enterprise-wide automation initiatives for Fortune 500 companies.
+                  We specialize in developing, maintaining, and assembling heavy duty machinery automation systems for naval vessels, commercial ships, armored vehicles, and military installations.
                 </p>
               </div>
               <div className="overflow-hidden rounded-lg shadow-lg">
@@ -100,13 +100,13 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-6">Our Mission</h2>
                 <p className="text-lg text-foreground/70 leading-relaxed">
-                  To deliver world-class automation and industrial engineering solutions that enable our clients to operate more efficiently, safely, and sustainably. We are committed to continuous innovation and to building long-term partnerships based on trust and results.
+                  To deliver world-class heavy machinery automation solutions that enable naval forces and defense organizations to operate more effectively and safely. We are committed to continuous innovation and to building long-term partnerships with military and maritime clients worldwide.
                 </p>
               </div>
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-6">Our Vision</h2>
                 <p className="text-lg text-foreground/70 leading-relaxed">
-                  To be the global leader in industrial automation, recognized for our expertise, innovation, and impact. We envision a future where advanced automation enables every organization to achieve their full potential while maintaining the highest standards of safety and sustainability.
+                  To be the global leader in marine and military heavy machinery automation, recognized for our expertise in propulsion systems, defense manufacturing, and shipyard operations. We envision a future where our automation systems strengthen naval capabilities and protect those who serve.
                 </p>
               </div>
             </div>

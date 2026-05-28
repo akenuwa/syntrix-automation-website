@@ -3,44 +3,44 @@
 import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import {
-  Zap,
+  Anchor,
   Settings,
-  Cpu,
+  Wrench,
   Shield,
-  TrendingUp,
+  Cog,
   Users,
 } from 'lucide-react';
 
 const services = [
   {
-    icon: Zap,
-    title: 'System Design',
-    description: 'Custom automation systems engineered to your exact specifications and requirements.',
+    icon: Anchor,
+    title: 'Marine Propulsion Systems',
+    description: 'Design and integration of advanced propulsion automation for naval vessels, commercial ships, and submarines.',
   },
   {
     icon: Settings,
-    title: 'Integration',
-    description: 'Seamless integration with your existing infrastructure and legacy systems.',
+    title: 'Machinery Assembly',
+    description: 'Complete assembly of heavy duty machinery including turbines, engines, and hydraulic systems for defense applications.',
   },
   {
-    icon: Cpu,
-    title: 'Control Systems',
-    description: 'Advanced PLCs and distributed control systems for maximum efficiency.',
+    icon: Wrench,
+    title: 'Maintenance & Repair',
+    description: 'Comprehensive maintenance programs and emergency repair services for military and marine equipment worldwide.',
   },
   {
     icon: Shield,
-    title: 'Safety Solutions',
-    description: 'Comprehensive safety systems meeting all international compliance standards.',
+    title: 'Defense Systems Integration',
+    description: 'Integration of automated control systems for armored vehicles, weapons platforms, and military installations.',
   },
   {
-    icon: TrendingUp,
-    title: 'Optimization',
-    description: 'Performance analysis and optimization for enhanced productivity.',
+    icon: Cog,
+    title: 'Heavy Equipment Automation',
+    description: 'Automation solutions for cranes, winches, deck machinery, and heavy lifting equipment in shipyards and ports.',
   },
   {
     icon: Users,
-    title: 'Consulting',
-    description: 'Expert technical consulting and strategic planning for your projects.',
+    title: 'Technical Consulting',
+    description: 'Expert engineering consulting for naval architecture, defense procurement, and machinery specification.',
   },
 ];
 
@@ -80,10 +80,10 @@ export function ServicesSection() {
           className="mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl mb-4">
-            Our Services
+            Our Capabilities
           </h2>
           <p className="max-w-2xl text-lg text-foreground/70">
-            Comprehensive automation solutions tailored to your industry and business needs.
+            Full-spectrum heavy machinery automation services for marine and military applications, from design to deployment.
           </p>
         </motion.div>
 
@@ -116,7 +116,7 @@ export function ServicesSection() {
 
                     <div className="pt-4">
                       <a
-                        href="#"
+                        href="/services"
                         className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:gap-3 transition-all"
                       >
                         Learn More

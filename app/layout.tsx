@@ -7,13 +7,13 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Syntrix Automation | Industrial Engineering Solutions',
-  description: 'Advanced automation and industrial engineering solutions for global enterprises. We deliver cutting-edge technology and expertise to optimize your operations.',
-  keywords: ['automation', 'industrial engineering', 'manufacturing', 'engineering solutions'],
+  title: 'Syntrix Automation | Marine & Military Heavy Machinery',
+  description: 'Developing, maintaining, and assembling heavy duty machinery automation for marine vessels and military defense applications. Trusted by navies and defense contractors worldwide.',
+  keywords: ['marine automation', 'military machinery', 'naval propulsion', 'defense systems', 'heavy duty equipment', 'shipyard automation'],
   generator: 'v0.app',
   openGraph: {
-    title: 'Syntrix Automation | Industrial Engineering Solutions',
-    description: 'Advanced automation and industrial engineering solutions for global enterprises.',
+    title: 'Syntrix Automation | Marine & Military Heavy Machinery',
+    description: 'Heavy duty machinery automation for marine and military applications worldwide.',
     type: 'website',
   },
   icons: {
