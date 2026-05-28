@@ -33,29 +33,29 @@ export function HeroSection() {
 
   const machineryImages = [
     {
-      src: '/images/machinery-1.png',
-      alt: 'Marine propulsion and naval machinery systems',
-      title: 'Marine Systems',
+      src: '/images/hydraulic-press.png',
+      alt: 'Hydraulic Press machinery',
+      title: 'Hydraulic Press',
     },
     {
-      src: '/images/machinery-2.png',
-      alt: 'Military-grade automated manufacturing equipment',
-      title: 'Defense Manufacturing',
+      src: '/images/pneumatic-press.png',
+      alt: 'Pneumatic Press machinery',
+      title: 'Pneumatic Press',
     },
     {
-      src: '/images/machinery-3.png',
-      alt: 'Heavy lifting cranes and port logistics equipment',
-      title: 'Port Equipment',
+      src: '/images/press-stamping-die.png',
+      alt: 'Press Stamping Die',
+      title: 'Press Stamping Die',
     },
     {
-      src: '/images/machinery-4.png',
-      alt: 'Naval vessel engine room and propulsion systems',
-      title: 'Propulsion Systems',
+      src: '/images/press-auxiliary-accessories.png',
+      alt: 'Press Auxiliary Accessories',
+      title: 'Press Auxiliary Accessories',
     },
     {
-      src: '/images/machinery-5.png',
-      alt: 'Military vehicle assembly and armored systems production',
-      title: 'Armored Vehicle Assembly',
+      src: '/images/rod-billet-cutting.png',
+      alt: 'Rod Billet Cutting Machine',
+      title: 'Rod Billet Cutting Machine',
     },
   ];
 

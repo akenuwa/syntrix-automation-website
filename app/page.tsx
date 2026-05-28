@@ -3,6 +3,7 @@ import { HeroSection } from '@/components/HeroSection';
 import { ServicesSection } from '@/components/ServicesSection';
 import { IndustriesSection } from '@/components/IndustriesSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
+import { MachinerySection } from '@/components/MachinerySection';
 import { GallerySection } from '@/components/GallerySection';
 import { TestimonialsSection } from '@/components/TestimonialsSection';
 import { ComplianceSection } from '@/components/ComplianceSection';
@@ -15,6 +16,7 @@ export default function Home() {
       <Navigation />
       <main className="flex-1">
         <HeroSection />
+        <MachinerySection />
         <ServicesSection />
         <IndustriesSection />
         <ProjectsSection />
