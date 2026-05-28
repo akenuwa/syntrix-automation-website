@@ -1,94 +1,93 @@
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { Metadata } from 'next';
-import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import {
-  Zap,
+  Anchor,
   Settings,
-  Cpu,
+  Wrench,
   Shield,
-  TrendingUp,
+  Cog,
   Users,
   CheckCircle2,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Our Services | Syntrix Automation',
-  description: 'Comprehensive automation and industrial engineering services tailored to your needs.',
+  description: 'Heavy duty machinery automation services for marine and military applications including propulsion systems, assembly, and maintenance.',
 };
 
 const serviceDetails = [
   {
-    icon: Zap,
-    title: 'System Design',
-    shortDesc: 'Custom automation systems engineered to your specifications.',
-    fullDesc: 'Our expert engineers design custom automation systems tailored to your exact requirements. From concept through detailed design, we ensure every component works together seamlessly.',
+    icon: Anchor,
+    title: 'Marine Propulsion Systems',
+    shortDesc: 'Naval vessel propulsion automation.',
+    fullDesc: 'Design and integration of advanced propulsion automation for naval vessels, commercial ships, and submarines. We handle diesel-electric, gas turbine, and hybrid propulsion systems.',
     benefits: [
-      'Custom architecture designed for your needs',
-      'Full technical documentation and schematics',
-      '3D modeling and simulation before deployment',
-      'Scalable design for future expansion',
+      'Diesel-electric propulsion control',
+      'Gas turbine automation systems',
+      'Hybrid propulsion integration',
+      'Fuel efficiency optimization',
     ],
   },
   {
     icon: Settings,
-    title: 'Integration Services',
-    shortDesc: 'Seamless integration with existing infrastructure.',
-    fullDesc: 'We specialize in integrating new automation systems with your existing legacy systems and infrastructure, minimizing disruption to operations.',
+    title: 'Machinery Assembly',
+    shortDesc: 'Heavy duty equipment assembly.',
+    fullDesc: 'Complete assembly of heavy duty machinery including turbines, marine engines, and hydraulic systems for defense and commercial marine applications.',
     benefits: [
-      'Legacy system compatibility',
-      'Minimal operational downtime',
-      'Data migration and synchronization',
-      'Testing and validation protocols',
+      'Marine engine assembly and testing',
+      'Turbine installation and commissioning',
+      'Hydraulic system integration',
+      'Quality assurance and certification',
     ],
   },
   {
-    icon: Cpu,
-    title: 'Control Systems',
-    shortDesc: 'Advanced PLCs and distributed control.',
-    fullDesc: 'Implementation of advanced programmable logic controllers (PLCs) and distributed control systems (DCS) for maximum efficiency and reliability.',
+    icon: Wrench,
+    title: 'Maintenance & Repair',
+    shortDesc: 'Global maintenance support.',
+    fullDesc: 'Comprehensive maintenance programs and emergency repair services for military and marine heavy machinery equipment deployed worldwide.',
     benefits: [
-      'Industrial-grade PLC programming',
-      'Real-time monitoring and diagnostics',
-      'Failover and redundancy systems',
-      'Cloud integration capabilities',
+      'Preventive maintenance programs',
+      '24/7 emergency repair response',
+      'Spare parts logistics management',
+      'On-site and shipyard repair services',
     ],
   },
   {
     icon: Shield,
-    title: 'Safety Solutions',
-    shortDesc: 'Comprehensive safety system compliance.',
-    fullDesc: 'Complete safety solutions meeting all international standards including SIL ratings, emergency stops, and personnel protection systems.',
+    title: 'Defense Systems Integration',
+    shortDesc: 'Military machinery automation.',
+    fullDesc: 'Integration of automated control systems for armored vehicles, weapons platforms, military installations, and defense manufacturing facilities.',
     benefits: [
-      'SIL 1-4 certified systems',
-      'Emergency shutdown procedures',
-      'Personnel safety interlocks',
-      'Compliance documentation and audits',
+      'Armored vehicle systems automation',
+      'Weapons platform integration',
+      'Command and control systems',
+      'Military-grade security protocols',
     ],
   },
   {
-    icon: TrendingUp,
-    title: 'Optimization Services',
-    shortDesc: 'Performance analysis and improvement.',
-    fullDesc: 'We analyze your existing systems to identify bottlenecks and optimization opportunities, delivering measurable improvements in efficiency.',
+    icon: Cog,
+    title: 'Heavy Equipment Automation',
+    shortDesc: 'Port and shipyard automation.',
+    fullDesc: 'Automation solutions for cranes, winches, deck machinery, and heavy lifting equipment used in shipyards, ports, and military logistics facilities.',
     benefits: [
-      'Performance benchmarking',
-      'Energy efficiency analysis',
-      'Process optimization modeling',
-      'Continuous improvement consulting',
+      'Crane and winch automation',
+      'Deck machinery control systems',
+      'Container handling automation',
+      'Heavy lift coordination systems',
     ],
   },
   {
     icon: Users,
-    title: 'Consulting Services',
-    shortDesc: 'Expert technical and strategic guidance.',
-    fullDesc: 'Our experienced consultants provide technical expertise and strategic planning to guide your automation initiatives from planning through execution.',
+    title: 'Technical Consulting',
+    shortDesc: 'Expert engineering guidance.',
+    fullDesc: 'Expert engineering consulting for naval architecture, defense procurement, machinery specification, and strategic project planning for marine and military clients.',
     benefits: [
-      'Technical feasibility studies',
-      'ROI analysis and business case development',
-      'Technology selection guidance',
-      'Project management support',
+      'Naval architecture consulting',
+      'Defense procurement support',
+      'Machinery specification development',
+      'Project feasibility studies',
     ],
   },
 ];
@@ -102,10 +101,10 @@ export default function ServicesPage() {
         <section className="py-20 md:py-32 border-b border-border/40">
           <div className="container mx-auto max-w-7xl px-4">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
-              Our Services
+              Our Capabilities
             </h1>
             <p className="text-lg text-foreground/70 max-w-3xl">
-              Comprehensive automation solutions designed to transform your operations. From initial design through ongoing optimization, we deliver expertise and results.
+              Full-spectrum heavy machinery automation services for marine and military applications. From initial design through deployment and ongoing maintenance, we deliver mission-critical systems.
             </p>
           </div>
         </section>
@@ -157,10 +156,10 @@ export default function ServicesPage() {
             </h2>
             <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
               {[
-                { step: '01', title: 'Discovery', desc: 'We analyze your needs, challenges, and objectives.' },
-                { step: '02', title: 'Design', desc: 'Custom solutions are designed with your input.' },
-                { step: '03', title: 'Implementation', desc: 'Systems are built, tested, and deployed.' },
-                { step: '04', title: 'Support', desc: 'Ongoing optimization and technical support.' },
+                { step: '01', title: 'Assessment', desc: 'We analyze your vessel or facility requirements and operational needs.' },
+                { step: '02', title: 'Engineering', desc: 'Custom machinery systems are designed to military or marine specifications.' },
+                { step: '03', title: 'Assembly & Integration', desc: 'Systems are built, assembled, tested, and commissioned on-site.' },
+                { step: '04', title: 'Lifecycle Support', desc: 'Ongoing maintenance, repair, and modernization services.' },
               ].map((item, idx) => (
                 <div key={idx} className="relative">
                   <div className="flex flex-col gap-4">

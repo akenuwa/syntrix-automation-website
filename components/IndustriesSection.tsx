@@ -3,44 +3,44 @@
 import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import {
-  Factory,
-  Droplet,
-  Zap,
-  Pill,
-  Package,
-  Wind,
+  Anchor,
+  Shield,
+  Ship,
+  Truck,
+  Building2,
+  Container,
 } from 'lucide-react';
 
 const industries = [
   {
-    icon: Factory,
-    title: 'Manufacturing',
-    description: 'Advanced manufacturing automation for increased throughput and quality.',
+    icon: Anchor,
+    title: 'Naval Defense',
+    description: 'Propulsion, weapons systems, and machinery automation for naval vessels and submarines.',
   },
   {
-    icon: Droplet,
-    title: 'Chemical & Petrochemical',
-    description: 'Specialized control systems for hazardous and complex processes.',
+    icon: Ship,
+    title: 'Commercial Marine',
+    description: 'Cargo ships, tankers, and offshore vessels with advanced engine room automation.',
   },
   {
-    icon: Zap,
-    title: 'Power & Energy',
-    description: 'Grid management and distributed energy resource automation.',
+    icon: Shield,
+    title: 'Military Land Systems',
+    description: 'Armored vehicles, artillery systems, and mobile command center automation.',
   },
   {
-    icon: Pill,
-    title: 'Pharmaceutical',
-    description: 'GMP-compliant automation systems with full traceability.',
+    icon: Truck,
+    title: 'Defense Logistics',
+    description: 'Heavy transport vehicles and military supply chain machinery systems.',
   },
   {
-    icon: Package,
-    title: 'Logistics & Distribution',
-    description: 'Material handling and warehouse automation solutions.',
+    icon: Building2,
+    title: 'Shipyard Operations',
+    description: 'Dry dock equipment, heavy cranes, and shipbuilding machinery automation.',
   },
   {
-    icon: Wind,
-    title: 'Renewable Energy',
-    description: 'Smart control systems for renewable energy generation and storage.',
+    icon: Container,
+    title: 'Port & Harbor',
+    description: 'Container handling, gantry cranes, and port logistics equipment systems.',
   },
 ];
 
@@ -86,7 +86,7 @@ export function IndustriesSection() {
             Industries We Serve
           </h2>
           <p className="max-w-2xl text-lg text-foreground/70">
-            Deep expertise across diverse industrial sectors with specialized solutions.
+            Specialized heavy machinery automation for marine and military sectors worldwide.
           </p>
         </motion.div>
 
